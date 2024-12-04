@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+}
+
+header {
+    background: #001428;
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+}
+header h1 {
+    color: #fff;
+    font-size: 2.2em;
+}
+
+nav a {
+    color: white;
+    margin: 0 1em;
+    text-decoration: none;
+}
+
+.contact-form {
+    background-color: #fff;
+    padding: 2em;
+    margin: 2em auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 500px;
+}
+
+label {
+    display: block;
+    margin: 1em 0 0.5em;
+    font-weight: bold;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 0.5em;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #002e5c;
+    color: white;
+    padding: 0.75em 1.5em;
+    border: none;
+    border-radius:
+}
+.social-icons {
+    margin-top: 1em;
+}
+
+.social-icons a {
+    color: #002e5c; 
+    margin: 0 10px;
+    font-size: 1.5em; 
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.social-icons a:hover {
+    color: #002e5cb4; 
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #001428;
+    color: #fff;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+}

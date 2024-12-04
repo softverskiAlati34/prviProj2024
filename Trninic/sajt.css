@@ -1,0 +1,137 @@
+body {
+  margin: 0;
+  font-family: arial;
+  color: white;
+  font-size: 20px;
+}
+
+table {
+  border: none;
+  border-collapse: collapse;
+}
+
+.header {
+  background-color: black;
+  height: 80px;
+}
+
+.footer {
+  background-color: black;
+  height: 80px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
+
+.spacex-logo {
+  height: 50px;
+}
+
+.text-header {
+  color: white;
+  width: 150px;
+  font-size: 15px;
+}
+
+.home-text {
+  color: white;
+  text-decoration: none;
+}
+
+.home-text:hover {
+  text-decoration: underline;
+}
+
+.tri-slike {
+  width: 450px;
+  margin: 50px 50px 0 50px;
+}
+
+.text-tri-slike {
+  font-size: 14px;
+  font-weight: bold;
+  justify-content: center;
+  display: flex;
+}
+
+.ikonice {
+  width: 30px;
+}
+
+.text-footer {
+  font-size: 11px;
+  color: rgb(170, 170, 170);
+}
+
+.footer-text-link {
+  color: rgb(170, 170, 170);
+  text-decoration: none;
+}
+
+.footer-text-link:hover {
+  text-decoration: underline;
+}
+
+.video {
+  margin-top: 50px;
+  margin-left: 50px;
+}
+
+.glidetext {
+  margin: 30px 15px 50px 15px;
+}
+
+div.scroll-container {
+  background-color: #333;
+  overflow: auto;
+  white-space: nowrap;
+  padding: 10px;
+}
+
+div.scroll-container img {
+  padding: 10px;
+}
+
+.forma {
+  padding: 20px;
+}
+
+.main {
+  margin: auto;
+  background-color: rgba(87, 46, 87, 0.445);
+  border-radius: 15px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  transition: transform 0.2s;
+  width: 600px;
+}
+
+form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+h2 {
+  text-align: center;
+  color: white;
+}
+
+input {
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.button-submit {
+  padding: 15px 100px;
+  border-radius: 10px;
+  border: none;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.button-submit:active {
+  color: #292828;
+}
