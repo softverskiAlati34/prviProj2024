@@ -1,0 +1,109 @@
+ {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, sans-serif;
+}
+
+body {
+    background-color: grey;
+    color: #333;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding: 20px;
+    background-color: white;
+}
+
+.logo img {
+    height: 60px;
+}
+
+nav {
+    position: absolute;
+    top: 50%;
+    right: 30px;
+    transform: translateY(-50%);
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #ccc;
+}
+
+
+main {
+    padding: 50px;
+    text-align: center;
+}
+
+#intro h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+#features {
+    margin: 50px 0;
+}
+
+#features h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+#features ul {
+    list-style: none;
+    text-align: left;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+#video {
+    margin: 50px 0;
+}
+
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: white;
+    color: black;
+}
+
+footer a {
+    color: black;
+    margin: 0 10px;
+    font-size: 24px; 
+    transition: color 0.3s;
+}
+
+footer a:hover {
+    color: #ccc; 
+}
+li {
+    font-size: 20px
+}
+pre {
+    font-size: 20px
+}
+ime modela {
+            margin-top: 10px;
+            font-weight: bold;
+            color: #333;
+            font-size: 100px;

@@ -1,0 +1,71 @@
+.text-overlay {
+    position: absolute;
+    top: 60%;
+    left: 80%;
+    text-align: center;
+
+}
+
+.social {
+    position: absolute;
+    left: 46.5%;
+    text-align: center;
+
+}
+
+
+div.box{
+    float: left;
+}
+
+body {
+    background-color:#131111;
+}
+
+h1,h2,p {
+    color: white
+}
+
+
+form {
+    max-width: 500px;
+    margin-left: 10%;
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+    color:white;
+}
+
+button {
+    color : gray;
+    background-color: transparent;
+    height: 50px;
+    width: 115px;
+    cursor: pointer;
+    border: transparent;
+    font-size: 17;
+    font-weight: bolder;
+    transition-duration: 0.6s ;
+}
+
+button:hover {
+    color:rgb(255, 21, 21);
+
+}
+
+button.specijalanmali {
+    border: transparent;
+    background-color: rgb(36, 35, 35);
+}
+
+input, textarea {
+    background-color: gray;
+    color: #333;
+    padding: 7px;
+    width: 80%;
+    border: 1px solid #2b2828;
+    border-radius: 10px;
+    margin-bottom: 7px;
+}
