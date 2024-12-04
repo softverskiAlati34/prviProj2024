@@ -1,0 +1,272 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #121212;
+    color: #ffffff;
+}
+
+
+header {
+    background-color: #1f1f1f;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo h1 {
+    color: #76b900;
+}
+.logo a{
+    color: lime;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 50px;
+    font-family: monospace;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #76b900;
+}
+
+.product-hero {
+    position: relative;
+    overflow: hidden;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    z-index: 2;
+}
+
+.video-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    z-index: 1;
+    pointer-events: none;
+}
+
+.video-background iframe {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100vw;
+    height: 100vh;
+    transform: translate(-50%, -50%);
+}
+
+.product-hero h2, .product-hero p {
+    z-index: 2;
+}
+.card {
+    background-color: #121212;
+    border-radius: 8px;
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.card h4 {
+    color: #76b900;
+    margin-bottom: 10px;
+}
+
+.card-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #76b900;
+    color: #121212;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.card-button:hover {
+    background-color: #98d11e;
+}
+.product-hero p {
+    font-size: 1.2rem;
+}
+
+.product-details {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.product-details h3 {
+    font-size: 2rem;
+    color: #76b900;
+    margin-bottom: 20px;
+}
+
+.product-details ul {
+    list-style: none;
+    color: #888888;
+    margin: 20px 0;
+}
+
+.product-details li {
+    font-size: 1rem;
+    margin-bottom: 8px;
+}
+
+.product-gallery {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.product-gallery h3 {
+    font-size: 2rem;
+    color: #76b900;
+    margin-bottom: 20px;
+}
+
+.gallery-images {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.gallery-images img {
+    width: 100%;
+    border-radius: 10px;
+    transition: transform 0.3s;
+}
+
+.gallery-images img:hover {
+    transform: scale(1.05);
+}
+
+.customer-reviews {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #1f1f1f;
+}
+
+.customer-reviews h3 {
+    font-size: 2rem;
+    color: #76b900;
+    margin-bottom: 20px;
+}
+
+.review {
+    background-color: #121212;
+    padding: 20px;
+    border-radius: 8px;
+    margin: 10px auto;
+    max-width: 400px;
+    color: #888888;
+    font-style: italic;
+}
+
+.review span {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.purchase {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #1f1f1f;
+}
+
+.purchase h3 {
+    font-size: 2rem;
+    color: #76b900;
+    margin-bottom: 20px;
+}
+
+.purchase .cta-button {
+    display: inline-block;
+    padding: 12px 25px;
+    background-color: #76b900;
+    color: #121212;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.purchase .cta-button:hover {
+    background-color: #98d11e;
+}
+
+footer {
+    background-color: #1f1f1f;
+    padding: 40px 20px;
+    color: #888888;
+    text-align: center;
+}
+
+footer {
+    background-color: #1f1f1f;
+    padding: 40px 20px;
+    color: #888888;
+    text-align: center;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-bottom: 20px;
+}
+
+.footer-links div h4 {
+    color: #76b900;
+    margin-bottom: 10px;
+}
+
+.footer-links ul {
+    list-style: none;
+}
+
+.footer-links ul li {
+    margin: 8px 0;
+}
+
+.footer-links ul li a {
+    color: #888888;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footer-links ul li a:hover {
+    color: #ffffff;
+}

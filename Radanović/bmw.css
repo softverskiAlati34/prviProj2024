@@ -1,0 +1,123 @@
+body{
+background-color: #ffffff;
+font-family: Arial, Helvetica, sans-serif;
+margin:0;
+padding:0;
+}
+
+header{
+padding-top:20px;
+padding-left:25px;
+padding-right:25px;
+text-decoration:none;
+color:grey;
+background-color:#F7F8F8;
+}
+
+.header{
+text-decoration:none;
+color:#A7A9B1
+}
+
+header2{
+padding-top:20px;
+padding-left:25px;
+padding-right:25px;
+text-decoration:none;
+color:grey;
+}
+
+a:hover{
+color:black;
+font-weight:bold;
+}
+
+.header2{
+text-decoration:none;
+color:grey;
+text-align:center;
+}
+
+.tabelaslika{
+position:relative;
+text-align:left;
+color:white;
+}
+
+.donji-levi{
+position:absolute;
+bottom:8px;
+left:16px;
+}
+
+.news{
+padding-left:19%;
+padding-top:3%;
+}
+
+.button {
+background-color:#51AAD5;
+border: none;
+color: white;
+padding: 20px;
+border-radius:10%;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 16px;
+margin: 4px 2px;
+cursor: pointer;
+}
+
+.button:hover{
+background-color:#3D96CB;
+}
+
+.tdslike{
+text-decoration:none;
+color:black;
+}
+
+.tdslike:hover{
+text-decoration:underline;
+text-decoration-color:purple; 
+}
+
+.tdslike2{
+text-decoration:none;
+color:grey;
+}
+
+.tdslike2:hover{
+color:black;
+font-weight:bold;
+}
+
+footer{
+background-color:black;
+}
+
+.lista{
+text-decoration:none;
+color:#73DCED;
+padding-top:7px;
+}
+
+.lista:hover{
+text-decoration:underline;
+text-decoration-color:#73DCED;
+cursor: pointer;
+}
+
+.newsdiv{
+background-color:#731AFD;
+}
+
+input{
+background-color:#9653FE;
+width: 700px;
+padding: 12px;
+margin-bottom: 10px;
+border:none;
+border-radius: 3px;
+}
