@@ -1,0 +1,107 @@
+body {
+    background-color:#000000;
+}
+button.dugme {
+    background-color:rgb(65, 65, 65);
+    color:white;
+    transition-duration: 0.4s; 
+    cursor: pointer;
+    height: 50px;
+    width: 115px;   
+    font-size:15;
+    font-weight: bold;
+}
+button:hover.dugme {
+  color:#d3322b;
+  background-color: #222222;
+}
+button{
+    background-color: transparent;
+    border: transparent;
+    color: white;
+    height: 50px;
+    width: 150px; 
+    font-size: 20px;
+    font-weight: bold;
+    transition-duration: 0.4s; 
+    cursor: pointer;
+}
+button:hover {
+    color:#d3322b;
+    background-color: transparent;
+  }
+h3{
+    color: lightgray;
+    font-family:sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+.cont{
+display: flex; 
+}
+.card{
+border-radius: 20px;
+margin-left: 10px;
+background-color:gray;
+transition: .3s all ease;
+}
+.card:hover{
+transform: scale(1.2);
+}
+h1{
+    font-family:sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    color: lightgray;
+}
+h1.mis{
+    align-items: center;
+}
+p{
+    font-family:sans-serif;
+    font-size: 15px;
+    color: white;
+}
+.text-overlay {
+    position: absolute;
+    top: 50%;
+    left: 80%;
+    text-align: right;
+}
+.social{
+    float: left;
+    position: absolute;
+    text-align: right;
+    left: 85%;
+}
+td {
+    border:1px solid gray;
+}
+h2{
+    font-family:sans-serif;
+    font-size: 15px;
+    color: white;
+}
+
+form {
+    max-width: 500px;
+    margin-left: 10%;
+}
+label {
+    display: block;
+    margin: 10px 0 5px;
+    color:white;
+}
+input, textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 1px;
+    background-color: gray;
+    color: #333;
+}
+
+div.pored{
+    float: left;
+}

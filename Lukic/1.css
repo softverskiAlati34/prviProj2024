@@ -1,0 +1,195 @@
+
+@font-face{
+	font-family: font1;
+	src:url(WorkSans-Light.ttf);
+}
+
+@font-face{
+    font-family:font2;
+    src:url(fontawesome-webfont.ttf);
+}
+
+body {
+    font-family: font1;
+    background-color: rgb(0, 0, 0);
+    margin:0px;
+}
+
+header {
+    background-color: rgb(17, 17, 17);               
+    padding: 11px;          
+    font-family:font1;
+    color: red;
+    font-size:15px;       
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;              
+    text-decoration: none;     
+    color: rgb(204, 204, 204);
+}
+
+nav {
+    display: flex;              
+    align-items: center;        
+    justify-content: flex-start; 
+}
+
+footer {
+    background-color: rgb(17, 17, 17);   
+    color: white;
+    text-align: center;
+    padding: 2px;
+    bottom: 0;
+    width: 101%;
+}
+
+
+a:hover {
+    font-family:font1,font2;
+    font-size:15px;
+    font-weight:regular;
+    background:transparent;
+    transition: 0.4s;
+    color:red;
+}
+
+
+.logo {
+width: 85px;
+height: 50px;
+margin-left: 20px;
+}
+
+
+.footer2 {
+font-family:font1;
+font-size:30px;
+text-align:left;
+margin-left:300px;
+}
+
+.footer3 {
+font-family:font1;
+font-size:15px;
+text-align:left;
+margin-left:300px;
+margin-top:-15px;
+}
+
+.footer4 {
+    font-family:1;
+    font-size:13px;
+    color:rgb(126, 126, 126);
+    text-align:left;
+    margin-left:300px;
+}
+
+
+.text {
+font-family:font1;
+color:white;
+font-size:17px;
+margin-left: 300px;
+line-height: 25px;
+margin-top: 0px;
+}
+
+.text2 {
+font-family:font1;
+color:white;
+font-size:25px;
+margin-left: 300px;
+font-weight:bold;
+}
+
+.product {
+position:absolute;
+right: 310px;
+bottom: -210px;
+}
+
+
+.fa {
+    padding: 5px;
+    font-size: 20px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+
+  .fa:hover {
+    opacity: 0.7;
+    color:white;
+    font-size:17px;
+}
+  
+
+  .fa-facebook {
+    background: transparent;
+    color: white;
+    margin-left:-1170px;
+  }
+
+  .fa-instagram {
+    background: transparent;
+    color: white;
+  }
+
+  .fa-youtube {
+    background: transparent;
+    color: white;
+  }
+
+  .fa-twitter {
+    background: transparent;
+    color: white;
+  }
+
+  .new-arrivals {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff0000;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+    margin-right:1180px;
+    position:relative;
+    top: -40px;
+}
+
+.button2 {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: transparent;
+    color: white;
+    text-decoration: none;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+    margin-right:900px;
+    position:relative;
+    top: -80px;
+}
+
+.button:hover {
+    background-color: rgb(184,0,14);
+    color:white;
+}
+
+.button2:hover {
+    background-color: rgb(51, 51, 51);
+    color:white;
+}

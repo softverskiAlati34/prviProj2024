@@ -1,0 +1,181 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background-color: #ffffff;
+    color: white;
+}
+
+.logo {
+    height: 150px;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 50px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #808080;
+}
+
+
+
+.linija {
+    border: none;
+    height: 3px;
+    background-color: #333;
+    width: 100%;
+}
+
+    .linija2 {
+        border: none;
+        height: 3px;
+        background-color: #333;
+        position: absolute;
+        top:2466px;
+        width: 100%;
+}
+
+
+footer {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position:absolute;
+    top: 2520px;
+    width: 100%;
+    padding: 20px;
+    height: 600px;
+    background-color: #ffffff;
+    color: white;
+}
+
+footer section.footer-middle {
+    text-align: center;
+    flex-grow: 1;            
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+footer section.footer-middle a {
+    display: block;
+    color: rgb(0, 0, 0);
+    font-family: sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 20px;
+    margin: 25px 0;
+    transition: color 0.3s ease;
+}
+
+footer section.footer-middle a:hover {
+    color: #808080;
+}
+
+
+footer aside.footer-right {
+    display: flex;
+    flex-direction: column;
+}
+
+footer aside.footer-right a {
+    margin-bottom: 10px;
+}
+
+footer aside.footer-right img {
+    height: 60px;
+    width: auto;
+    transition: transform 0.3s ease;
+}
+
+footer aside.footer-right img:hover {
+    transform: scale(1.1);
+}
+
+.jedan {
+    position: absolute; top: 183px; 
+}
+
+.dva {
+    position: absolute; right: 450px; top: 450px;
+}
+
+.font {
+    font-family: sans-serif;
+}
+
+.tri {
+
+    position: absolute; top: 1050px;
+}
+
+.font2 {
+    font-family: sans-serif; text-align: center;
+    position: absolute; left: 800px; top: 1100px;
+}
+
+.cetiri {
+    height: 306px; width: 506px; position: absolute; left: 100px; top: 1280px; border: 3px solid #333;
+}
+
+.pet {
+    height: 306px; width: 506px; position: absolute; left: 700px; top: 1280px; border: 3px solid #333;
+}
+
+.sest {
+    height: 306px; width: 506px; position: absolute; right: 100px; top: 1280px; border: 3px solid #333;
+}
+
+.sedam {
+    height: 300px; width: 400px;  position: absolute; left: 1420px; top: 1240px; font-family: sans-serif;
+}
+
+.linija3 {
+    border: none;
+        height: 3px;
+        background-color: #333;
+        position: absolute;
+        top: 1013px;
+        width: 100%;
+}
+
+.osam {
+    height: 300px; width: 400px;  position: absolute; left: 820px; top: 1240px; font-family: sans-serif;
+}
+
+.devet {
+    height: 300px; width: 400px;  position: absolute; left: 200px; top: 1240px; font-family: sans-serif;
+}
+
+.fanum {
+    position: absolute; top: 1700px; left: 70px;
+}
+
+.tax {
+    position: absolute; left: 1200px; top: 1700px; font-family: sans-serif;
+}
+
