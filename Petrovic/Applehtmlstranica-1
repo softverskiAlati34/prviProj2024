@@ -1,0 +1,22 @@
+<html>
+
+<head>
+<title>APPLE.com</title>
+</head>
+<body>
+<header>
+      <div>
+            <img src="apple-logo.jpg"width="300">
+      </div>
+  <h2>apple</h2>
+<p>
+<a href="https://www.apple.com">
+<img src="apple-logo.jpg" width="45px" height="40px">
+</header>
+
+<footer>
+    
+</footer>
+
+</body>
+</html> 

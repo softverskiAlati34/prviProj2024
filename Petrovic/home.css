@@ -1,0 +1,98 @@
+body {
+    background-color:#e0e0de;
+}
+button {
+    background-color:rgb(15, 78, 194);
+    color:rgb(255, 255, 255);
+    transition-duration: 0.4s; 
+    cursor: pointer;
+    height: 50px;
+    width: 115px;   
+    font-size:15;
+    font-weight: bold;
+}
+button.dugme{
+    background-color: transparent;
+    border: transparent;
+    color: darkgray;
+}
+button.dugme:hover{
+    color: black;
+    background-color: transparent;
+}
+
+button:hover {
+  color:#fbfbfb;
+  background-color: #200ba6;
+}
+.iph16-overlay {
+    position: absolute;
+    top: 35%;
+    left: 40%;
+    color: white;
+    font-size:  35px;
+}
+.iph-button{
+    position: absolute;
+    top: 100%;
+    left: 45%;
+    border-radius: 35%;
+}
+.wtch-overlay{
+    position: absolute;
+    top: 135%;
+    left: 32.5%;
+    color: black;
+    font-size:  35px;
+}
+.wtch-button{
+    position: absolute;
+    top: 200%;
+    left: 45%;
+    border-radius: 35%;
+}
+.air-overlay{
+    position: absolute;
+    top: 215%;
+    left: 15%;
+    color: white;
+    font-size:  35px;
+}
+.air-button{
+    position: absolute;
+    top: 260%;
+    left: 40%;
+    border-radius: 35%;
+}
+.ipad-overlay{
+    position: absolute;
+    top: 215%;
+    right:15%;
+    color: rgb(0, 0, 0);
+    font-size:  35px;
+}
+.ipad-button{
+    position: absolute;
+    top: 260%;
+    left: 50%;
+    border-radius: 35%;
+}
+
+
+div.box{
+    float: left;  
+}
+form {
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+input, textarea {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}

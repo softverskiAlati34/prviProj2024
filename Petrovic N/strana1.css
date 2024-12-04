@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: linear-gradient( #ff0000, #790303,#2e0101);
+    color: white;
+    padding: 30px;
+    text-align: center;
+}
+.logo img {
+    height: 50px; 
+}
+.tesla{
+text-align: center;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+.pocetak{
+    text-align:center;
+}
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    
+}
+nav ul li a:hover {
+    color: black;
+    
+}
+
+main {
+    padding: 20px;
+    background-color: #e8f7fa;
+    border: 25px solid #2e0101;
+    border-radius:0px;
+}
+.evolucija{
+    border-style:solid;
+    border-width: 20px;
+    border-color: #2e0101;
+    border-radius: 5px;
+    padding: 10px;
+}
+.energija{
+    border-style:solid;
+    border-width: 20px;
+    border-color: #2e0101;
+    border-radius: 5px;
+    padding: 10px;
+}
+.lokacija{
+    border-style:solid;
+    border-width: 20px;
+    border-color: #2e0101;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 99%;
+}
+
